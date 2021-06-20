@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiCssTricks, DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiCssTricks, DiFirebase, DiReact, DiDjango, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -16,22 +16,28 @@ const Technologies = () =>  (
         <DiReact size='3rem' />
         <ListContainer>
           <ListTitle>Front End</ListTitle>
-          <ListParagraph>Experience with front-end library such as React JS</ListParagraph>
+          <ListParagraph>Experience with front-end library such as React JS, HTML, CSS and Bootstrap</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size='3rem' />
         <ListContainer>
           <ListTitle>Back End</ListTitle>
-          <ListParagraph>Experience with backend technologies like MYSQL and MongoDB</ListParagraph>
+          <ListParagraph>Experience with backend technologies like MYSQL,MongoDB and Firebase.</ListParagraph>
         </ListContainer>
       </ListItem>
-      
       <ListItem>
         <DiCssTricks size='3rem' />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>Experience with tools like Figma</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiDjango size='3rem' />
+        <ListContainer>
+          <ListTitle>FrameWorks</ListTitle>
+          <ListParagraph>Experience with frameworks like Express and Django</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
